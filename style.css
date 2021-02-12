@@ -1,0 +1,48 @@
+.header{
+    background-image:("back.jpg");
+}
+.main{
+    border: solid;
+    display: flex;
+    justify-content: space-around;
+}
+
+.sub1 {
+    position: relative;
+
+}
+.sub1 p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.sub1:hover p{
+    opacity: 1;
+}
+.sub1:hover img{
+    opacity: 0.22;
+}
+.sub1 {
+    position: relative;
+
+}
+.sub p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+.sub:hover p{
+    opacity: 1;
+}
+.sub:hover img{
+    opacity: 0.22;
+}
+.main1{
+    border: solid;
+    display: flex;
+    justify-content: space-around;
+}
